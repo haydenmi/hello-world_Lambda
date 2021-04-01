@@ -10,6 +10,10 @@ void setup() {
 void loop() {
       //blink LED
       //circuit will only complete when button is pressed down
+  
+      digitalWrite(LED_BUILTIN, LOW);
+      delay(20);
+      //added two lines above to test branch -chris
       
       digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
       delay(20);                          // wait for 20 ms
