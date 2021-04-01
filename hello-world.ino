@@ -11,14 +11,16 @@ void loop() {
       //blink LED
       //circuit will only complete when button is pressed down
       
+      //Mike's original code
       digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
       delay(20);                          // wait for 20 ms
       digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
       delay(20);                          // wait for 20 ms
   
-      //I think that we should add a faster blink after the first one
+      //I think that we should add a faster blink after the first one - Dean
       digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
       delay(10);                          // wait for only 10 ms
       digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
       delay(10);                          // wait for only 10 ms
+  
 }
