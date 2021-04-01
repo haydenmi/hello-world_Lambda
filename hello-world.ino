@@ -15,4 +15,10 @@ void loop() {
       delay(20);                          // wait for 20 ms
       digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
       delay(20);                          // wait for 20 ms
+  
+      //I think that we should add a faster blink after the first one
+      digitalWrite(LED_BUILTIN, HIGH);    // turn the LED on (HIGH is the voltage level)
+      delay(10);                          // wait for only 10 ms
+      digitalWrite(LED_BUILTIN, LOW);     // turn the LED off by making the voltage LOW
+      delay(10);                          // wait for only 10 ms
 }
